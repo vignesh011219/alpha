@@ -1,0 +1,219 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5 ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#HeaderSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     color:white; 
+     padding-left: 20px;
+     padding-right: 20px;
+}
+#HeaderSection #left h1{
+    font-size: 15px;
+}
+#HeaderSection #right ul{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style-type: none;
+}   
+#HeaderSection #right ul li button{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+}
+#HeaderSection #left h1 span{
+    font-weight: 100;
+}
+#BodySection{
+    color: white;
+    text-align: center;
+    margin-top:118px ;
+}
+#BodySection h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#BodySection p{
+    font-size: 20px;
+}
+#BodySection button{
+    width: 185px;
+    height: 46px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: rgb(141, 133, 133);
+}
+#BodySection #learn{
+    background-color: transparent;
+    border: 2px solid #c9baba;
+    color: white;
+}
+#ContentSection{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 245px;
+    padding-top: 20px;
+    border-radius: 5px;
+    color:#6b6b6b  ;
+}
+#ContentSection h1{
+    font-size: 35px;
+}
+#ContentSection p{
+    font-size: 20px;
+    border-top: 2px solid  #e5e5e5;
+    width: 60% ;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+#ContentSection img{
+    width: 100%;
+}
+
+#menu{
+    display: none;
+}
+#IconSection{
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+    color:#6b6b6b  ;
+   
+ 
+}
+#IconSection div{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    padding-top: 20px;
+}
+#IconSection section{
+    margin-left: 76px;
+}
+.fa.fa-bolt{
+    font-size: 35px;
+    border-radius: 100%;
+    background-color: #e89980 ;
+    color: white;
+    padding: 20px 30px;
+}
+.fa.fa-area-chart{
+    font-size: 35px;
+    border-radius: 100%;
+    background-color:
+    #7fcdb8;
+    color: white;
+    padding: 20px 20px;
+}
+.fa.fa-cloud{
+    font-size: 35px;
+    border-radius: 100%;
+    background-color:
+    #90b0ba ;
+    color: white;
+    padding: 20px 20px;
+}
+.fa.fa-lock{
+    font-size: 35px;
+    border-radius: 100%;
+    background-color: 
+    #e5cb95;
+    color: white;
+    padding: 20px 30px;
+}
+#div1{
+    border-right: 2px solid  #e5e5e5;
+    border-bottom: 2px solid  #e5e5e5;
+    position: relative;
+    left: 3px;
+    top: 2px;
+}
+#div4{
+    border-top: 2px solid  #e5e5e5;
+    border-left: 2px solid  #e5e5e5;
+}
+#ImageSection{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color:#6b6b6b  ;
+}
+#ImageSection div{
+    text-align: center;
+    width: 48%;
+    border-radius: 5px;
+    background-color: white;
+}
+#ImageSection div img{
+    width: 100%;
+}
+
+
+/* 
+-------mobile version------- */
+@media (max-width:600px){
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: rgb(207, 175, 175);
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #HeaderSection{
+        display: none;
+    }
+    body{
+        background-size: 200%;
+        background-position-x:center ;
+    }
+    #BodySection{
+        
+        width: 80%;
+        margin: auto;
+    }
+    #BodySection h1{
+        font-size: 30px;
+        margin-top:54px;
+    }
+    #BodySection p{
+        font-size: 18px;
+    }
+    #BodySection button{
+        width: 100%;
+    }
+    #ContentSection{
+    
+        width: 100%;
+        margin-top: 82px;
+    }
+    #ContentSection h1{
+        font-size: 25px;
+    }
+    #ContentSection p{
+        width: 90% ;
+        font-size: 18px;
+    }
+    br{
+        display: none;
+    }
+}
